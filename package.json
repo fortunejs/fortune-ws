@@ -1,7 +1,7 @@
 {
   "name": "fortune-ws",
   "description": "WebSocket implementation for Fortune.js.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -15,7 +15,12 @@
   },
   "dependencies": {
     "msgpack-lite": "^0.1.26",
-    "uws": "^0.11.0"
+    "uws": "^0.11.0",
+    "ws": "^1.1.1"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^1.2.1",
+    "utf-8-validate": "^1.2.1"
   },
   "devDependencies": {
     "browserify": "^13.1.1",
