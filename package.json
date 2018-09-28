@@ -1,7 +1,7 @@
 {
   "name": "fortune-ws",
   "description": "WebSocket implementation for Fortune.js.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "repository": {
     "type": "git",
